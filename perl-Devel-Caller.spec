@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:           perl-Devel-Caller
 Version:        2.06
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Meatier versions of caller
 License:        GPL+ or Artistic
 Group:          Development/Libraries
