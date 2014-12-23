@@ -32,6 +32,9 @@ Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $versi
 %global __provides_exclude %{?__provides_exclude:__provides_exclude|}^perl\\(DB\\)
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Devel::Caller - Meatier versions of caller.
 
 %prep
