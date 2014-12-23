@@ -71,6 +71,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/Devel::Caller.3pm*
 
 %changelog
+* Tue Dec 23 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 2.06-1.2
+- Adapt for AL/LL
+- Add package support URL
+- Import source package EPEL7/perl-Devel-Caller-2.06-1.el7
+
 * Fri Jul 19 2013 Petr Pisar <ppisar@redhat.com> - 2.06-1
 - 2.06 bump
 
